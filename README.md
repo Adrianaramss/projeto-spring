@@ -9,7 +9,7 @@ Após o login, a tela do usuário exibe as seguintes funcionalidades:
 
 - Visualizar Chamados Criados: O usuário pode ver uma lista dos chamados que ele criou. Cada chamado exibe informações como nome do usuário, setor, descrição do problema, prioridade e data de início. Deve haver pelo menos cinco chamados fictícios para simular uma interação real.
 Criar Novo Chamado: O usuário pode preencher os campos necessários para criar um novo chamado, como setor, descrição, prioridade, etc. Após inserir os dados, ele pode enviar o chamado para ser tratado pelo sistema. Embora a funcionalidade não inclua banco de dados real, ela simula o processo de criação de chamados.
-Tela do Técnico:
+- Tela do Técnico:
 Na tela do técnico, após o login, as seguintes funcionalidades estão disponíveis:
 
 - Visualizar Chamados Disponíveis: Esta tela lista todos os chamados que estão aguardando atendimento. Cada chamado inclui informações detalhadas, como descrição, prioridade, setor, etc.
