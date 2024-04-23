@@ -11,6 +11,10 @@ public class Técnico {
         return id;
     }
 
+    public Técnico(String nome) {
+        this.nome = nome;
+    }
+
     public void setId(int id) {
         this.id = id;
     }

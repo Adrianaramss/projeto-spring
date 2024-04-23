@@ -7,6 +7,17 @@ public class Chamado {
     private String prioridade;
     private String dataInicio;
 
+    private Técnico técnico;
+
+    public Chamado(String setor, String descricao, String prioridade, String dataInicio, Técnico técnico) {
+        this.setor = setor;
+        this.descricao = descricao;
+        this.prioridade = prioridade;
+        this.dataInicio = dataInicio;
+        this.técnico = técnico;
+    }
+
+
     public Chamado(String setor, String descricao, String prioridade, String dataInicio) {
         this.setor = setor;
         this.descricao = descricao;
@@ -45,5 +56,13 @@ public class Chamado {
 
     public void setDataInicio(String dataInicio) {
         this.dataInicio = dataInicio;
+    }
+
+    public Técnico getTécnico() {
+        return técnico;
+    }
+
+    public void setTécnico(Técnico técnico) {
+        this.técnico = técnico;
     }
 }

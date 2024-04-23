@@ -49,7 +49,7 @@
         }
 
         .chamados {
-            max-width: 600px;
+            max-width: 900px;
             margin: 20px auto;
             background-color: white;
             border: 1px solid #ddd;
@@ -88,6 +88,7 @@
     <table>
         <thead>
         <tr>
+            <th>Técnico</th>
             <th>Setor</th>
             <th>Descrição</th>
             <th>Prioridade</th>
@@ -98,19 +99,19 @@
         </thead>
         <tbody>
         <tr th:each="chamado : ${chamados}">
+            <td th:text="${chamado.técnico.getNome()}"></td>
             <td th:text="${chamado.setor}"></td>
             <td th:text="${chamado.descricao}"></td>
             <td th:text="${chamado.prioridade}"></td>
             <td th:text="${chamado.dataInicio}"></td>
             <td class="Status">
 
-                <button onclick="Status">Aguardando técnico</button>
-                <button onclick="a">Em atendimento</button>
-                <button onclick="a">Escalado para outro setor</button>
-                <button onclick="a">Finalizado </button>
-
-
-
+                <select name="Status">
+                    <option value="1">Aguardando técnico</option>
+                    <option value="2">Em atendimento</option>
+                    <option value="3">Escalado para outro setor</option>
+                    <option value="4">Finalizado</option>
+                </select>
 
             </td>
         </tr>
