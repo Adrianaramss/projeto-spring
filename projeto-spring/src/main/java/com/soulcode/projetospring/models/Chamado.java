@@ -2,6 +2,7 @@ package com.soulcode.projetospring.models;
 
 
 public class Chamado {
+    private int id;
     private String setor;
     private String descricao;
     private String prioridade;
@@ -9,7 +10,8 @@ public class Chamado {
 
     private Técnico técnico;
 
-    public Chamado(String setor, String descricao, String prioridade, String dataInicio, Técnico técnico) {
+    public Chamado( int id, String setor, String descricao, String prioridade, String dataInicio, Técnico técnico) {
+        this.id = id;
         this.setor = setor;
         this.descricao = descricao;
         this.prioridade = prioridade;
@@ -18,7 +20,8 @@ public class Chamado {
     }
 
 
-    public Chamado(String setor, String descricao, String prioridade, String dataInicio) {
+    public Chamado(int id,String setor, String descricao, String prioridade, String dataInicio) {
+        this.id = id;
         this.setor = setor;
         this.descricao = descricao;
         this.prioridade = prioridade;
@@ -64,5 +67,13 @@ public class Chamado {
 
     public void setTécnico(Técnico técnico) {
         this.técnico = técnico;
+    }
+
+    public int getId() {
+        return id;
+    }
+
+    public void setId(int id) {
+        this.id = id;
     }
 }

@@ -56,9 +56,27 @@
         .login-container button:hover {
             background-color: #218838;
         }
+
+      .botaosair {
+            background-color: #FF4500; /* Tom mais vibrante */
+            color: white;
+            padding: 10px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+            position: absolute; /* Para posicionar */
+            top: 10px;
+            right: 10px;
+        }
+
+        .botaosair:hover {
+            background-color: #FF6347; /* Cor de hover */
+        }
     </style>
 </head>
 <body>
+<button class="botaosair" type="button" onclick="window.location.href='/'">Sair</button>
 <h1>Login Usuário</h1>
 <div class="login-container">
     <form action="/telausuario" method="get">

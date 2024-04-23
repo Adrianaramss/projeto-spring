@@ -33,11 +33,11 @@ public class principal {
     @GetMapping("/telausuario")
     public String telaUsuario(@RequestParam("username") String username, Model model) {
         List<Chamado> chamados = new ArrayList<>();
-        chamados.add(new Chamado("Suporte técnico", "Internet lenta","Alta","22-04-2024"));
-        chamados.add(new Chamado("Administrativo", "Emissão da 2º via de fatura","Médio","21-04-2024"));
-        chamados.add(new Chamado("Juridico", "2º via de contrato ","Baixo","21-04-2024"));
-        chamados.add(new Chamado("Comercial", "Criar proposta para up grande de serviços","Médio","19-04-2024"));
-        chamados.add(new Chamado("Financeiro", "Criar lote de pagamentos","Alto","17-04-2024"));
+        chamados.add(new Chamado(1,"Suporte técnico", "Internet lenta","Alta","22-04-2024"));
+        chamados.add(new Chamado(2,"Administrativo", "Emissão da 2º via de fatura","Médio","21-04-2024"));
+        chamados.add(new Chamado(3,"Juridico", "2º via de contrato ","Baixo","21-04-2024"));
+        chamados.add(new Chamado(4,"Comercial", "Criar proposta para up grande de serviços","Médio","19-04-2024"));
+        chamados.add(new Chamado(5,"Financeiro", "Criar lote de pagamentos","Alto","17-04-2024"));
 
         model.addAttribute("userName", username);
         model.addAttribute("title", "Tela do Usuário");
@@ -55,15 +55,16 @@ public class principal {
          Técnico t2 = new Técnico("Fernanda");
          Técnico t3 = new Técnico("Sandra");
 
-        chamados.add(new Chamado("Suporte técnico", "Internet lenta","Alta","22-04-2024",t1));
-        chamados.add(new Chamado("Administrativo", "Emissão da 2º via de fatura","Médio","21-04-2024",t2));
-        chamados.add(new Chamado("Juridico", "2º via de contrato ","Baixo","21-04-2024",t2));
-        chamados.add(new Chamado("Comercial", "Criar proposta para up grande de serviços","Médio","19-04-2024",t3));
-        chamados.add(new Chamado("Financeiro", "Criar lote de pagamentos","Alto","17-04-2024",t1));
+        chamados.add(new Chamado(1,"Suporte técnico", "Internet lenta","Alta","22-04-2024",t1));
+        chamados.add(new Chamado(2,"Administrativo", "Emissão da 2º via de fatura","Médio","21-04-2024",t2));
+        chamados.add(new Chamado(3,"Juridico", "2º via de contrato ","Baixo","21-04-2024",t2));
+        chamados.add(new Chamado(4,"Comercial", "Criar proposta para up grande de serviços","Médio","19-04-2024",t3));
+        chamados.add(new Chamado(5,"Financeiro", "Criar lote de pagamentos","Alto","17-04-2024",t1));
 
 
         model.addAttribute("title","Tela do Técnico");
         model.addAttribute("chamados", chamados);
+        model.addAttribute("userName", username);
 
 
         return "telatecnico";
