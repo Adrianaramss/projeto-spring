@@ -22,24 +22,26 @@ Alterar Status do Chamado: Ao clicar em um chamado específico, o técnico pode 
 
 - Tela Inicial
   
-![Macbook-Air-localhost](https://github.com/Adrianaramss/projeto-spring/assets/111310311/38e64aa8-8ca7-487f-b686-395b8be30a98)
+![Macbook-Air-localhost (4)](https://github.com/Adrianaramss/projeto-spring/assets/111310311/43eec309-56fe-4e71-ad60-27490800fe6b)
+
 
 - Tela Login do técnico
   
-![Macbook-Air-localhost (1)](https://github.com/Adrianaramss/projeto-spring/assets/111310311/855e77e4-3b78-4725-a1ed-ffaa53666e3c)
+![Macbook-Air-localhost (1)](https://github.com/Adrianaramss/projeto-spring/assets/111310311/c8f0077c-35b2-443a-a216-f7d2fcb17019)
+
 
 - Tela Login do usuario
   
-![Macbook-Air-localhost (2)](https://github.com/Adrianaramss/projeto-spring/assets/111310311/7aacc38b-3d55-4a35-93dd-95da7cc83c5b)
+![Macbook-Air-localhost](https://github.com/Adrianaramss/projeto-spring/assets/111310311/8f1778bb-2604-4126-b2ee-b5fa9170a859)
 
 - Tela Usuario
   
-![Macbook-Air-localhost (5)](https://github.com/Adrianaramss/projeto-spring/assets/111310311/cc559d9b-cb0b-406b-89c7-a4ec9bc25787)
+![Macbook-Air-localhost (2)](https://github.com/Adrianaramss/projeto-spring/assets/111310311/58def9cc-21e4-482b-8d4b-4b6cbbeeed07)
 
 
 - Tela Técnico
   
-![Macbook-Air-localhost (6)](https://github.com/Adrianaramss/projeto-spring/assets/111310311/0595c60a-adb8-449b-9dee-26791e3bb43f)
+![Macbook-Air-localhost (2)](https://github.com/Adrianaramss/projeto-spring/assets/111310311/80cb6b07-2cec-427b-ab70-8e5d5fb9ef0c)
 
 
 # 💻 Tecnologias utilizadas no Projeto
