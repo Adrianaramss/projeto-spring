@@ -36,7 +36,7 @@ Alterar Status do Chamado: Ao clicar em um chamado específico, o técnico pode 
 
 - Tela Usuario
   
-![Macbook-Air-localhost (2)](https://github.com/Adrianaramss/projeto-spring/assets/111310311/58def9cc-21e4-482b-8d4b-4b6cbbeeed07)
+![Macbook-Air-localhost (3)](https://github.com/Adrianaramss/projeto-spring/assets/111310311/21e69895-6cfe-483c-b7c2-e6b6e3e8bc3a)
 
 
 - Tela Técnico
